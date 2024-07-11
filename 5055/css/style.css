@@ -1,0 +1,109 @@
+		.chart {
+			margin-left: 2px;
+			margin-bottom: 10px;
+		}
+		.label {
+			font-size: 10px;
+			font-family: "Times New Roman";
+		}
+		.chart-title {
+			margin-left:0px;
+			margin-bottom:5px;
+			margin-top:10px;
+			font-size:14px;
+			font-weight: bold;
+		}
+		.chart rect {
+			stroke-width:0;
+			stroke: white;
+		}
+		
+		.bar.creator { fill: #2E527E; }
+		.bar.recipient { fill: #5A7CA5; }
+		.bar.mentioned { fill: #A7BFD6; }
+		
+		.bar.creator.unknown { fill: #7E7E7E; }
+		.bar.recipient.unknown  { fill: #A5A5A5; }
+		.bar.mentioned.unknown { fill: #D6D6D6; }
+		
+		.bar:hover { fill: #820C00; }
+		.bar.creator.unknown:hover { fill: #8E8E8E; }
+		.bar.recipient.unknown:hover { fill: #B5B5B5; }
+		.bar.mentioned.unknown:hover { fill: #E6E6E6; }
+		
+		.buttons {
+			display: inline-block;
+			margin-left: 20px;
+			margin-bottom: 10px;
+		}
+		button {
+			margin: 2px 0; 
+			padding: 5px;
+			background-color:#2c5171;
+			border:none;
+			color:#fff !important;	
+			
+			-webkit-box-shadow: 2px 2px 1px #ccc;
+			-moz-box-shadow: 2px 2px 1px #ccc;
+			-o-box-shadow: 2px 2px 1px #ccc;
+			box-shadow: 2px 2px 1px #ccc;
+			
+			font: normal 100% "coustard", serif;
+			
+			border-right: white 1px solid;
+		}
+		
+		.buttons button:first-child {
+			-webkit-border-radius: 7px 0 0 7px
+			-moz-border-radius: 7px 0 0 7px;
+			-o-border-radius: 7px 0 0 7px;
+			border-radius: 7px 0 0 7px;
+		}
+		
+		.buttons button:last-child {
+			-webkit-border-radius: 0 7px 7px 0;
+			-moz-border-radius: 0 7px 7px 0;
+			-o-border-radius: 0 7px 7px 0;
+			border-radius: 0 7px 7px 0;
+			border-right: none;
+		}
+		
+		button.highlight {
+			background-color: #820C00;
+			
+			-webkit-box-shadow: inset 2px 2px 1px #777;
+			-moz-box-shadow: inset 2px 2px 1px #777;
+			-o-box-shadow: inset 2px 2px 1px #777;
+			box-shadow: inset 2px 2px 1px #777;
+			padding: 6px 4px 4px 6px;
+		}
+		button:hover {
+			background-color:#4c7191;
+		}
+		button.highlight:hover {
+			background-color:#820C00;
+		}
+		
+		button#hide_unknown {
+			display: inline-block;
+			margin-left: 20px;
+		}
+		button#show_unknown {
+			display: inline-block;
+			margin-right: 20px;
+		}
+		
+		.axis path,
+		.axis line {
+			fill: none;
+			stroke: black;
+			shape-rendering: crispEdges;
+		}
+		.axis text {
+			font-family: sans-serif;
+			font-size: 11px;
+		}
+		.guideline { 
+			stroke: #444;
+			stroke-width: 0.1;
+		}
